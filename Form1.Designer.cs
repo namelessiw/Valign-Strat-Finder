@@ -185,7 +185,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(281, 371);
             Controls.Add(SearchButton);
             Controls.Add(Results);
             Controls.Add(label7);
@@ -201,8 +201,10 @@
             Controls.Add(StartY2);
             Controls.Add(StartY1);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form1";
-            Text = "VAlign Start Finder";
+            Text = "VAlign Strat Finder";
             ResumeLayout(false);
             PerformLayout();
         }
